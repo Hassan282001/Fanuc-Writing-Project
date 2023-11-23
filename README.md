@@ -7,18 +7,29 @@ Programming the Fanuc CR-4iA Collaborative Robotic Arm to autonomously write an 
 The robot should store positions, compare values, and execute repeated instructions to complete the writing task.
 
 ## File Descriptions
-**main.ipynb:** Jupyter notebook with the complete implementation of the robotic arm's control logic, including AI-driven decision-making for writing.
-**fanuc_pcdk_client.py:** Handles communication with the Fanuc robotic arm, including sending commands and processing responses.
-**robot_loc_joint.py:** Manages joint coordinates of the robot, essential for the precise articulation of the arm.
-**robot_loc_world.py:** Handles world coordinates of the robot, crucial for positioning the robot arm in 3D space.
-**LICENSE:** Apache License, Version 2.0.
+**main.ipynb:** Jupyter notebook with the complete implementation of the robotic arm's control logic, including AI-driven decision-making for writing.  
+
+**fanuc_pcdk_client.py:** Handles communication with the Fanuc robotic arm, including sending commands and processing responses.  
+
+**robot_loc_joint.py:** Manages joint coordinates of the robot, essential for the precise articulation of the arm.  
+
+**robot_loc_world.py:** Handles world coordinates of the robot, crucial for positioning the robot arm in 3D space.  
+
+**LICENSE:** Apache License, Version 2.0.  
+
 
 ## Requirements
-Python 3.x.
-Fanuc CR-4iA Collaborative Robotic Arm, properly set up and enabled for programming.
-Required Python libraries (listed in requirements.txt).
+- Python 3.x.  
+
+- Fanuc CR-4iA Collaborative Robotic Arm, properly set up and enabled for programming.  
+
+- Required Python libraries (listed in requirements.txt).  
+
 
 ## Constraints
-The robotic arm must be a Fanuc CR-4iA model, correctly configured and enabled.
-The system is designed to write words consisting of the characters 'S', 'L', 'O', 'W', 'U', 'B' only.
-Adequate safety measures should be in place during operation, as the robotic arm involves physical movements.
+- The robotic arm must be a Fanuc CR-4iA model, correctly configured and enabled.  
+
+- The system is designed to write words consisting of the characters 'S', 'L', 'O', 'W', 'U', 'B' only.  
+
+- Adequate safety measures should be in place during operation, as the robotic arm involves physical movements.  
+
