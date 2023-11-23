@@ -18,7 +18,7 @@ The robot should store positions, compare values, and execute repeated instructi
 **LICENSE:** Apache License, Version 2.0.  
 
 
-## Requirements
+## Dependencies
 - Python 3.x.  
 
 - Fanuc CR-4iA Collaborative Robotic Arm, properly set up and enabled for programming.  
