@@ -3,8 +3,7 @@
 This project is part of my ENGG4460 (Robotic Systems) lab and covers the control of a Fanuc CR-4iA Collaborative Robotic Arm. The objective was to autonomously write a three-letter word to be used in applications like 3D printing and automated writing.
 
 ## Lab Requirements
-Programming the Fanuc CR-4iA Collaborative Robotic Arm to autonomously write.
-Task: Write an arbitrary three-letter word, consisting of alphabetic characters 'S', 'L', 'O', 'W', 'U', 'B'.
+Programming the Fanuc CR-4iA Collaborative Robotic Arm to autonomously write an arbitrary three-letter word, consisting of alphabetic characters 'S', 'L', 'O', 'W', 'U', 'B'.
 The robot should store positions, compare values, and execute repeated instructions to complete the writing task.
 
 ## File Descriptions
