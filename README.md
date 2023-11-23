@@ -1,10 +1,6 @@
 # Fanuc-Writing-Project
 ## Introduction
-This project is part of my ENGG4460 (Robotic Systems) lab and covers the control of a Fanuc CR-4iA Collaborative Robotic Arm. The objective was to autonomously write a three-letter word to be used in applications like 3D printing and automated writing.
-
-## Lab Requirements
-Programming the Fanuc CR-4iA Collaborative Robotic Arm to autonomously write an arbitrary three-letter word, consisting of alphabetic characters 'S', 'L', 'O', 'W', 'U', 'B'.
-The robot should store positions, compare values, and execute repeated instructions to complete the writing task.
+This project is part of my ENGG4460 (Robotic Systems) lab and covers the control of a Fanuc CR-4iA Collaborative Robotic Arm. The objective was to Program the Robot Arm to autonomously write an arbitrary three-letter word, consisting of alphabetic characters 'S', 'L', 'O', 'W', 'U', 'B'. This project is to be used in applications like 3D printing and automated writing.
 
 ## File Descriptions
 **main.ipynb:** Jupyter notebook with the complete implementation of the robotic arm's control logic, including AI-driven decision-making for writing.  
@@ -29,7 +25,5 @@ The robot should store positions, compare values, and execute repeated instructi
 ## Constraints
 - The robotic arm must be a Fanuc CR-4iA model, correctly configured and enabled.  
 
-- The system is designed to write words consisting of the characters 'S', 'L', 'O', 'W', 'U', 'B' only.  
-
-- Adequate safety measures should be in place during operation, as the robotic arm involves physical movements.  
+- The system is designed to write words consisting of the characters 'S', 'L', 'O', 'W', 'U', 'B' only.    
 
